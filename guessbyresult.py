@@ -1,0 +1,8 @@
+print("1. Thinking Some Of Interger Number (1,2,3,4...)")
+print("2. Multiply that number with 2")
+print("3. Plus the result of 2. with 5")
+print("4. Multiply the result of 3. with 50")
+print("Now You have the result so...")
+result = int(input("Input your Result : "))
+guess = int((result - 250) / 100)
+print("Your Number that you think is {}".format(guess))
